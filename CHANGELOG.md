@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/cchampou/react-alt/compare/v0.0.0...v0.1.0) (2022-02-16)
+
+
+### Features
+
+* add useInputVisibility hook ([7ba0c1f](https://github.com/cchampou/react-alt/commit/7ba0c1ff28ff49a841834865cb98d5908fa19160))
+* correct types ([c6e97f0](https://github.com/cchampou/react-alt/commit/c6e97f0d14198f7c02ded548da2b56afcac060b4))
+
 ### [0.0.1](https://github.com/cchampou/react-alt/compare/v0.0.0...v0.0.1) (2022-02-16)
 
 
