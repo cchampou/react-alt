@@ -1,0 +1,9 @@
+{
+  "name": "react-alt",
+  "version": "dev",
+  "description": "A library of React components and utils.",
+  "main": "index.js",
+  "repository": "git@github.com:cchampou/react-alt.git",
+  "author": "cchampou <clement@champouillon.com>",
+  "license": "MIT"
+}
