@@ -1,18 +1,17 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
-const useKeyPress = (action: Function, keyCode: string) => {
-
+const useKeyPress = (action: () => unknown, keyCode: string) => {
   const keyHandler = (e: KeyboardEvent) => {
     const { key } = e;
     if (action && key === keyCode) action();
-  }
+  };
 
   useEffect(() => {
     addEventListener('keydown', keyHandler);
     return () => {
-      removeEventListener('keydown', keyHandler)
-    }
-  }, [])
-}
+      removeEventListener('keydown', keyHandler);
+    };
+  }, []);
+};
 
-export default useKeyPress
+export default useKeyPress;
