@@ -2,6 +2,10 @@
 
 A library of React components and utils.
 
+## Documentation
+
+[API Reference](https://cchampou.github.io/react-alt/)
+
 ## Current status
 
 The library is in active development.
