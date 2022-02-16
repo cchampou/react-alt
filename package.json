@@ -18,7 +18,8 @@
   },
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir lib",
-    "build": "rimraf lib && node ./esbuild.js && yarn run ts-types"
+    "build": "rimraf lib && node ./esbuild.js && yarn run ts-types",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@types/react": "17.0.39",
