@@ -1,8 +1,9 @@
 {
   "name": "react-alt",
-  "version": "0.0.0-dev",
+  "version": "0.0.0-dev2",
   "description": "A library of React components and utils.",
   "main": "lib/index.js",
+  "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:cchampou/react-alt.git",
   "author": "cchampou <clement@champouillon.com>",
@@ -12,8 +13,16 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.5.5"
   },
+  "peerDependencies": {
+    "react": "17"
+  },
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir lib",
     "build": "rimraf lib && node ./esbuild.js && yarn run ts-types"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.39",
+    "eslint": "8.9.0",
+    "react": "17.0.2"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "outDir": "lib",
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+  }
+}
