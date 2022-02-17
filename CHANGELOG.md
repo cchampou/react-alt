@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/cchampou/react-alt/compare/v0.1.5...v0.1.6) (2022-02-17)
+
+
+### Bug Fixes
+
+* switch to module type ([fd1101a](https://github.com/cchampou/react-alt/commit/fd1101aca8e26ccc41dffc37e6eb489c78827722))
+
 ### [0.1.5](https://github.com/cchampou/react-alt/compare/v0.1.4...v0.1.5) (2022-02-17)
 
 
