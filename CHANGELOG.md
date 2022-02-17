@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/cchampou/react-alt/compare/v0.1.2...v0.1.3) (2022-02-17)
+
+
+### Bug Fixes
+
+* react peer dependency definition ([cf9b617](https://github.com/cchampou/react-alt/commit/cf9b6176a636518b59a135a09833faf5a1cf4f8e))
+
 ### [0.1.2](https://github.com/cchampou/react-alt/compare/v0.1.1...v0.1.2) (2022-02-17)
 
 
