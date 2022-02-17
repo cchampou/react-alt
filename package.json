@@ -1,9 +1,10 @@
 {
   "name": "react-alt",
-  "version": "0.1.6-dev",
+  "version": "0.1.6-dev1",
   "description": "A library of React components and utils.",
-  "module": "./esm/index.js",
-  "types": "./lib/index.d.ts",
+  "module": "esm/index.js",
+  "main": "cjs/index.js",
+  "types": "lib/index.d.ts",
   "repository": "git@github.com:cchampou/react-alt.git",
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
@@ -12,7 +13,7 @@
   },
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir lib",
-    "build": "rimraf lib && node ./esbuild.cjs && yarn run ts-types",
+    "build": "rimraf esm lib cjs && node ./build-esm.cjs && node ./build-cjs.cjs && yarn run ts-types",
     "release": "standard-version",
     "lint": "eslint src",
     "prettier": "prettier src --write",

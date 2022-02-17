@@ -1,0 +1,13 @@
+docs/
+src/
+
+build-*.cjs
+
+.gitignore
+
+tsconfig.json
+.prettierrc.json
+.eslintrc.json
+typedoc.json
+
+.idea/
