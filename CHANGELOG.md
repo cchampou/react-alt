@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/cchampou/react-alt/compare/v0.1.6...v0.1.7) (2022-02-17)
+
+
+### Bug Fixes
+
+* cjs build issues ([7f4253d](https://github.com/cchampou/react-alt/commit/7f4253d44db05e75a2c8a7d9421364d1c0128c4d))
+
 ### [0.1.6](https://github.com/cchampou/react-alt/compare/v0.1.5...v0.1.6) (2022-02-17)
 
 
