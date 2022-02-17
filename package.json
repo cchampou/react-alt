@@ -1,11 +1,9 @@
 {
   "name": "react-alt",
-  "version": "0.1.6",
+  "version": "0.1.6-dev",
   "description": "A library of React components and utils.",
-  "main": "./lib/index.js",
-  "module": "./lib/index.js",
+  "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
-  "type": "module",
   "repository": "git@github.com:cchampou/react-alt.git",
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
@@ -21,17 +19,17 @@
     "docs": "typedoc src"
   },
   "devDependencies": {
-    "esbuild": "0.14.21",
-    "rimraf": "^3.0.2",
-    "typescript": "4.5.5",
     "@types/react": "17.0.39",
     "@typescript-eslint/eslint-plugin": "5.12.0",
     "@typescript-eslint/parser": "5.12.0",
+    "esbuild": "0.14.21",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
     "prettier": "^2.5.1",
     "react": "17.0.2",
+    "rimraf": "^3.0.2",
     "standard-version": "9.3.2",
-    "typedoc": "0.22.11"
+    "typedoc": "0.22.11",
+    "typescript": "4.5.5"
   }
 }
