@@ -9,7 +9,7 @@
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react": "17"
+    "react": "17.x"
   },
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir lib",
