@@ -7,9 +7,8 @@ import { useEffect } from 'react';
  * @param keyCode
  */
 const useKeyPress = (action: () => unknown, keyCode: string): void => {
-  const keyHandler = (e: KeyboardEvent) => {
-    const { key } = e;
-    if (action && key === keyCode) action();
+  const keyHandler = ({ key }: KeyboardEvent) => {
+    if (typeof action === 'function' && key === keyCode) action();
   };
 
   useEffect(() => {
@@ -17,7 +16,7 @@ const useKeyPress = (action: () => unknown, keyCode: string): void => {
     return () => {
       removeEventListener('keydown', keyHandler);
     };
-  }, []);
+  }, [keyHandler]);
 };
 
 export default useKeyPress;

@@ -31,7 +31,7 @@
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.5.1",
-    "react": "17.0.2",
+    "react": "link:../thommen/node_modules/react",
     "standard-version": "9.3.2",
     "typedoc": "^0.22.11"
   }
