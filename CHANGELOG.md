@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/cchampou/react-alt/compare/v0.1.1...v0.1.2) (2022-02-17)
+
+
+### Bug Fixes
+
+* dependencies organization ([02476a8](https://github.com/cchampou/react-alt/commit/02476a8045c451e9a1182e230b6b302cdabf6cf0))
+* **useKeyPress:** fix closure issue ([d8c26f5](https://github.com/cchampou/react-alt/commit/d8c26f5d7fbe39df5f029c874f0cb8233e94c9ce))
+
 ### [0.1.1](https://github.com/cchampou/react-alt/compare/v0.1.0...v0.1.1) (2022-02-17)
 
 
