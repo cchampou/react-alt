@@ -5,6 +5,7 @@
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "type": "module",
   "repository": "git@github.com:cchampou/react-alt.git",
   "author": "cchampou <clement@champouillon.com>",
   "license": "MIT",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir lib",
-    "build": "rimraf lib && node ./esbuild.js && yarn run ts-types",
+    "build": "rimraf lib && node ./esbuild.cjs && yarn run ts-types",
     "release": "standard-version",
     "lint": "eslint src",
     "prettier": "prettier src --write",
