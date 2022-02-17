@@ -1,6 +1,6 @@
 {
   "name": "react-alt",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A library of React components and utils.",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
